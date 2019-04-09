@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+h1, h2, h3, h4, h5{
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 300 !important;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa !important;
+}
+.navbar{
+  background-color: #f0f0f0 !important;
+  box-shadow: 0 2px 2px 2px rgba(0,0,0,.1), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.bordered {
+  border: 1px solid rgba(0,0,0,.15);
+}
+
+.text-align-right{
+  text-align: right;
+}
+
+.card {
+  background-color: #FFF;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+  border-radius: 2px;
+  box-sizing: border-box;
+  display: flex;
+  padding: 15px;
+  margin: 15px 0;
+}
+
+.product-card{
+  background-color: #FFF;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+  border-radius: 2px;
+  box-sizing: border-box;
+  margin:5px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.pc-content{
+  height: 80%;
+  min-height: 50px;
+}
+
+.pc-footer{
+  height: 20%;
+  min-height: 40px;
+}
+
+.heart, .cart{
+  cursor: pointer;
+  float: right;
+  padding-right: 5px;
+}
+
+.table-bordered td {
+  border: none!important;
+}
+
+.bgimage {
+  width:100%;
+  height:300px;
+  background: url('');
+  background-color: #f0f0f0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+.bgimage h1{
+  color:#fafafa;
+  margin: auto;
+  text-align: center;
+}
+
+.quantity-input{
+max-width: 50px;
+text-align: center;
+}
+
+.quantity-align{
+  left: 25%;
+}
